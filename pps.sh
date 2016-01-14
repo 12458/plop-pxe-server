@@ -190,7 +190,7 @@ EOL
 if [ ! -e /tmp/tgz/ploplinux-4.2.2.tgz ]; then
   mkdir /tmp/tgz > /dev/null 2>&1
   check_website http://download.plop.at
-  use_wget /tmp/tgz http://download.plop.at/files/ploplinux/4.2.2/ploplinux-4.2.2/ploplinux-4.2.2.tgz
+  use_wget /tmp/tgz https://download.plop.at/ploplinux/4.2.2/ploplinux-4.2.2/ploplinux-4.2.2.tgz
 fi
 
 # extract tar gzip archive, delete archive if extraction fails
